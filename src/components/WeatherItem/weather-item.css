@@ -1,0 +1,30 @@
+.weather-item {
+    padding: 20px;
+    flex-grow: 1;
+    margin: 0;
+    border-top: 1px solid #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.weather-item:first-child {
+    border-top: none;
+}
+
+.weather-item__date {
+    width: 50%;
+    font-size: 14px;
+}
+
+.weather-item__temp,
+.weather-item__icon {
+    width: 25%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.weather-item__image {
+    width: 32px;
+}

@@ -1,22 +1,56 @@
-.App {
-  text-align: center;
+.app {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-.App-logo {
-  height: 40vmin;
+.content {
+    flex-grow: 1;
+    display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container {
+    max-width: 400px;
+    min-width: 320px;
+    margin: 0 auto;
 }
 
-.App-link {
-  color: #09d3ac;
+.weather-bg-sn {
+    background-color: var(--weather-bg-sn);
+}
+
+.weather-bg-sl {
+    background-color: var(--weather-bg-sl);
+}
+
+.weather-bg-h {
+    background-color: var(--weather-bg-h);
+}
+
+.weather-bg-t {
+    background-color: var(--weather-bg-t);
+}
+
+.weather-bg-hr {
+    background-color: var(--weather-bg-hr);
+}
+
+.weather-bg-lr {
+    background-color: var(--weather-bg-lr);
+}
+
+.weather-bg-s {
+    background-color: var(--weather-bg-s);
+}
+
+.weather-bg-hc {
+    background-color: var(--weather-bg-hc);
+}
+
+.weather-bg-lc {
+    background-color: var(--weather-bg-lc);
+}
+
+.weather-bg-c {
+    background-color: var(--weather-bg-c);
 }

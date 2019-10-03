@@ -1,0 +1,33 @@
+.filters {
+    box-sizing: border-box;
+    padding: 20px;
+    height: var(--filters-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+.filters-button {
+    --height: 30px;
+    box-sizing: border-box;
+    padding: 0 20px;
+    border: 0;
+    border-radius: calc(var(--height) / 2);
+    height: var(--height);
+    font: 14px/var(--height) var(--font-family);
+    color: #fff;
+    background-color: #1976D2;
+    cursor: pointer;
+    outline: none;
+}
+
+.filters-button:hover,
+.filters-button:focus {
+    background-color: #2196F3;
+}
+
+.filters-button:active,
+.filters-button.filters-button_active {
+    background-color: #1A237E;
+}
